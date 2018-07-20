@@ -11,9 +11,8 @@ function happyHolidayTo(holiday, name) {
   return `Happy ${holiday}, ${name}!`
 }
 
-holidayCountdown("20", "Mother's Day")
-
 function holidayCountdown(days, holiday) {
+  theObject.make = 'Toyota';
   return `It's ${days} days until ${holiday}!`
 }
 
