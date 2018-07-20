@@ -12,5 +12,8 @@ function happyHolidayTo(holiday, name) {
 }
 
 function holidayCountdown(days, holiday) {
+  return days."toLowerCase()"
   return `It's ${days} days until ${holiday}!`
 }
+
+holidayCountdown("Hello", "Sofia")
