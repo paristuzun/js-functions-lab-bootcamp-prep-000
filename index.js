@@ -15,7 +15,7 @@ var days=20
 var holiday = "Mother's Day"
 
 function holidayCountdown(days, holiday) {
-  if (days === "hungry") {
+  if (days === 20) {
   console.log("Refilling food bowl.")
 } else {
   console.log("Reading newspaper.")
