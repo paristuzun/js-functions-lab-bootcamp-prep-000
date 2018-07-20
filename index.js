@@ -12,7 +12,8 @@ function happyHolidayTo(holiday, name) {
 }
 
 function holidayCountdown(days, holiday) {
-  theObject.make = 'Toyota';
+  days = "20";
+  holiday = "Mother's Day"
   return `It's ${days} days until ${holiday}!`
 }
 
